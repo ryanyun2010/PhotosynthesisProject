@@ -10,6 +10,7 @@ var es = [];
 var os = [];
 var ls = [];
 var nadps = [];
+
 var adps = [];
 function randomNumber(min, max) {
     return Math.random() * (max - min) + min;
