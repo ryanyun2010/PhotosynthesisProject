@@ -221,16 +221,16 @@ class ADP extends Molecule{
 
 
 function preload(){
-    startimg = loadImage("../PART1.png");
-    eimg = loadImage("../electron.png");
-    himg = loadImage("../H+.png");
-    oimg = loadImage("../O2.png");
-    lightimg = loadImage("../light.png");
-    eeimg = loadImage("../ee.png");
-    NADPimg = loadImage("../NADP.png");
-    NADPHimg = loadImage("../NADPH.png");
-    ADPimg = loadImage("../ADP.png");
-    ATPimg = loadImage("../ATP.png");
+    startimg = loadImage("./PART1.png");
+    eimg = loadImage("./electron.png");
+    himg = loadImage("./H+.png");
+    oimg = loadImage("./O2.png");
+    lightimg = loadImage("./light.png");
+    eeimg = loadImage("./ee.png");
+    NADPimg = loadImage("./NADP.png");
+    NADPHimg = loadImage("./NADPH.png");
+    ADPimg = loadImage("./ADP.png");
+    ATPimg = loadImage("./ATP.png");
     for(var i = 1; i < 25; i++){
         if(i < 10){
             conveyerimgs.push(loadImage("../conveyerimg/Conveyer-0" +i + ".png"));
