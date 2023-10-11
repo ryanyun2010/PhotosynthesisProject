@@ -104,17 +104,17 @@ var combstage = 0;
 var framecount = 0;
 var molecules = [];
 function preload(){
-    rubpimg = loadImage("RUBP.png");
-    startimg = loadImage("CALVIN.png");
-    co2img = loadImage("CO2.png");
-    rubp1img = loadImage("RUBP+CARBON.png");
-    RuBisCOimg = loadImage("RuBisCo.png");
-    NADPHimg = loadImage("NADPH.png");
-    ATPimg = loadImage("ATP.png");
-    G3Pimg = loadImage("G3P.png");
-    glucoseimg = loadImage("Glucose.png")
-    G3P1img = loadImage("G3P+1.png");
-    oimg = loadImage("O2.png");
+    rubpimg = loadImage("./PhotosynthesisProject/RUBP.png");
+    startimg = loadImage("./PhotosynthesisProject/CALVIN.png");
+    co2img = loadImage("./PhotosynthesisProject/CO2.png");
+    rubp1img = loadImage("./PhotosynthesisProject/RUBP+CARBON.png");
+    RuBisCOimg = loadImage("./PhotosynthesisProject/RuBisCo.png");
+    NADPHimg = loadImage("./PhotosynthesisProject/NADPH.png");
+    ATPimg = loadImage("./PhotosynthesisProject/ATP.png");
+    G3Pimg = loadImage("./PhotosynthesisProject/G3P.png");
+    glucoseimg = loadImage("./PhotosynthesisProject/Glucose.png")
+    G3P1img = loadImage("./PhotosynthesisProject/G3P+1.png");
+    oimg = loadImage("./PhotosynthesisProject/O2.png");
 }
 function setup(){
     createCanvas(1423,703);
