@@ -14,6 +14,7 @@ var adps = [];
 function randomNumber(min, max) {
     return Math.random() * (max - min) + min;
 }
+
 class Molecule{
     constructor(img,x,y,s,target){
         this.x = x;
